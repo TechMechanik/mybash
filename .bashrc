@@ -56,8 +56,8 @@ export EDITOR=nano
 export VISUAL=nano
 alias pico='edit'
 alias spico='sedit'
-alias nano='nano'
-alias snano='sudo nano'
+alias nano='edit'
+alias snano='sedit'
 alias vim='nvim'
 
 # Replace batcat with cat on Fedora as batcat is not available as a RPM in any form
