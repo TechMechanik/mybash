@@ -569,12 +569,6 @@ function hb {
 }
 
 #######################################################
-# Atuin - Remove up arrow shortcut
-#######################################################
-eval "$(atuin init bash)"
-bind '"\e[A": history-search-backward'
-
-#######################################################
 # Set the ultimate amazing command prompt
 #######################################################
 
@@ -589,3 +583,4 @@ eval "$(zoxide init bash)"
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
+bind '"\e[A": history-search-backward'
