@@ -569,6 +569,12 @@ function hb {
 }
 
 #######################################################
+# Atuin - Remove up arrow shortcut
+#######################################################
+eval "$(atuin init bash)"
+bind '"\e[A": history-search-backward'
+
+#######################################################
 # Set the ultimate amazing command prompt
 #######################################################
 
